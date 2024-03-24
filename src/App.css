@@ -1,39 +1,54 @@
-.App {
-  text-align: center;
-  background-color: aqua;
+.btn-danger {
+  color: #ff0000;
+  background-color: #ffffff;
+  border-color: #ff0000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-danger:hover{
+  color: #ffffff;
+  background-color: #ff0000;
+  border-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-primary:hover{
+  background-color: #000000;
+  border-color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary:focus{
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.btn-secondary {
+  color: #000;
+  background-color: #00000000;
+  border-color: #000000;
+}
+
+.btn-secondary:hover{
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-secondary:focus{
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+
+.btn-success {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
 }

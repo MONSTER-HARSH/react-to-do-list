@@ -5,9 +5,8 @@ export const Headers = () => {
         <>
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" className="d-inline-block align-text-top"/>
-                            Todo List
+                    <a className="navbar-brand" href="https://github.com/MONSTER-HARSH/react-to-do-list">
+                        <h4>React Todo List</h4>
                     </a>
                 </div>
             </nav>
